@@ -1675,7 +1675,6 @@ a.pswp__share--download:hover {
 
 /* -------------------------------------------------------------------
  * ## 5. Loading indicator (preloader)
- * You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
  * ------------------------------------------------------------------- */
 
 .pswp__preloader {
@@ -1703,7 +1702,7 @@ a.pswp__share--download:hover {
 }
 
 .pswp__preloader--active .pswp__preloader__icn {
-    /* We use .gif in browsers that don't support CSS animation */
+    /* Use .gif in browsers that don't support CSS animation */
     background: url(..images/photoswipe/preloader.gif) 0 0 no-repeat;
 }
 
